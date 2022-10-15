@@ -13,7 +13,7 @@ const Item = ({ id, note, date, time, deleteData, submittingStatus }) => {
         <p>{note}</p>
         <p>{`${date} ${time}`}</p>
       </div>
-      <button onClick={deleteItem} className="remove">刪除</button>
+      <button onClick={deleteItem} className="remove">delete</button>
     </div>
   );
 };
